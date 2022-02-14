@@ -1,3 +1,45 @@
 // Place all the styles related to the responses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+$grey: #F4F4F4;
+
+body {
+  background: white; // Using this variable
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: grey; // Using this variable
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 32px;
+  color: grey; // Using this variable
+}
+
+.banner {
+  background: white;
+  padding: 20px;
+  margin-right: 1000px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: grey;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+#answer {
+  background: rgb(255, 245, 188);
+  padding: 20px;
+  margin-right: 1000px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: grey;
+  h1 {
+    font-size: 50px;
+  }
+}
